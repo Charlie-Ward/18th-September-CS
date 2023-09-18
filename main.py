@@ -17,3 +17,16 @@ if IR > 0:
 
 print(opCode1)
 print(opCode2)
+
+opCode1 = True
+opCode2 = True
+
+address14 = 0
+if opCode1 and opCode2 != True:
+    address14 = opCode1
+
+print(address14)
+
+if opCode1 == True or opCode2 != True:
+    address14 = 1010
+print(address14)
